@@ -11,7 +11,7 @@ public class TestFactorial{
             System.out.println("All tests passed.");
         } catch (Exception e){
             System.err.println("Test Failed " + e.getMessage());
-            //System.exit(1);
+            System.exit(1);
     }
 }
 }
